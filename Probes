@@ -1,0 +1,35 @@
+*** Probes ***
+
++ FPing
+binary = /usr/sbin/fping
+blazemode = true
+step = 300
+
++ FPing6
+binary = /usr/sbin/fping
+protocol = 6
+blazemode = true
+
++ DNS
+binary = /usr/bin/dig
+forks = 2
+offset = 10%
+
++ Curl
+binary = /usr/bin/curl
+offset = random
+pings = 5
+urlformat = http://%host%/
+
++TCPPing
+binary = /usr/bin/tcpping
+forks = 1
+#forks = 20
+offset = 20%
+
++TraceroutePing
+binary = /usr/bin/traceroute # mandatory
+forks = 5
+offset = 50%
+step = 300
+timeout = 15

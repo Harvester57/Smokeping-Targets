@@ -1,0 +1,177 @@
+*** Targets ***
+
+probe = FPing
+
+menu = Top
+title = Network Latency Grapher
+
++ KNet
+menu = K-Net (Ping)
+title = K-Net (Ping)
+probe = FPing
+
+++ CollecteKNET
+menu = Collecte K-Net
+title = Collecte K-Net - 10.2.0.5
+host = 10.2.0.5
+
+++ CollecteCovage
+menu = Collecte Covage
+title = Collecte Covage - 10.2.0.4
+host = 10.2.0.4
+
+++ ENTHD1
+menu = ENTHD1
+title = Essonne Numérique Routeur 1 - 10.2.0.219
+host = 10.2.0.219
+
+++ ENTHD2
+menu = ENTHD2
+title = Essonne Numérique Routeur 2 - 10.2.0.220
+host = 10.2.0.220
+
+++ ENTHD3
+menu = ENTHD3
+title = Essonne Numérique Routeur 3 - 10.2.0.221
+host = 10.2.0.221
+
+++ ENTHD4
+menu = ENTHD4
+title = Essonne Numérique Routeur 4 - 10.2.0.222
+host = 10.2.0.222
+
++ Cloud
+menu = Cloud (Ping)
+title = Cloud (Ping)
+probe = FPing
+
+++ HarvesterPlex
+menu = Serveur Harvester
+title = Serveur Harvester - 5.39.94.25
+host = 5.39.94.25
+
+++ Netflix
+menu = Netflix Paris
+title = Netflix Paris - ipv6-c162-cdg001-ix.1.oca.nflxvideo.net
+host = ipv6-c162-cdg001-ix.1.oca.nflxvideo.net
+
+++ Canal
+menu = Canal Plus
+title = Canal Plus - hodor.canalplus.pro
+host = hodor.canalplus.pro
+
+++ AppleParis
+menu = Apple Paris
+title = Apple Paris - frstd1-vip-bx-001.aaplimg.com
+host = frstd1-vip-bx-001.aaplimg.com
+
+++ AppleFrankfurt
+menu = Apple Francfort
+title = Apple Francfort - defra1-vip-bx-001.aaplimg.com
+host = defra1-vip-bx-001.aaplimg.com
+
+++ AWSParis
+menu = AWS Paris
+title = AWS Paris - dynamodb.eu-west-3.amazonaws.com
+host = dynamodb.eu-west-3.amazonaws.com
+
+++ AWSFrancfort
+menu = AWS Francfort
+title = AWS Francfort - dynamodb.eu-central-1.amazonaws.com
+host = dynamodb.eu-central-1.amazonaws.com
+
+++ AWSIrlande
+menu = AWS Irlande
+title = AWS Irlande - dynamodb.eu-west-1.amazonaws.com
+host = dynamodb.eu-west-1.amazonaws.com
+
+++ AWSLondres
+menu = AWS Londres
+title = AWS Londres - dynamodb.eu-west-2.amazonaws.com
+host = dynamodb.eu-west-2.amazonaws.com
+
+++ AWSStockholm
+menu = AWS Stockholm
+title = AWS Stockholm - dynamodb.eu-north-1.amazonaws.com
+host = dynamodb.eu-north-1.amazonaws.com
+
++ InternetSites
+menu = Internet (HTTP)
+title = Internet (HTTP)
+probe = Curl
+
+++ Facebook
+menu = Facebook
+title = Facebook
+host = facebook.com
+
+++ Youtube
+menu = YouTube
+title = YouTube
+host = youtube.com
+
+++GoogleFR
+menu = Google.fr
+title = Google.fr
+host = google.fr
+
+++ GoogleSearch
+menu = Google
+title = google.com
+host = google.com
+
++ Gaming_Ping
+menu = Jeux (Ping)
+title = Serveurs de jeux (Ping)
+probe = FPing
+
+++ LoL
+menu = LoL
+title = League Of Legends EU
+host = euw.leagueoflegends.com
+
+@include /config/Targets-FR
+
++ DNS
+menu = DNS
+title = DNS
+
+++ Harvester
+menu = DNS Harvester
+title = DNS Harvester - 212.47.237.151
+host = 212.47.237.151
+
+++ GoogleDNS1
+menu = Google DNS 1
+title = Google DNS - 8.8.8.8
+host = 8.8.8.8
+
+++ GoogleDNS2
+menu = Google DNS 2
+title = Google DNS - 8.8.4.4
+host = 8.8.4.4
+
+++ OpenDNS1
+menu = OpenDNS1
+title = OpenDNS1 - 208.67.222.222
+host = 208.67.222.222
+
+++ OpenDNS2
+menu = OpenDNS2
+title = OpenDNS2 - 208.67.222.220
+host = 208.67.220.220
+
+++ CloudflareDNS1
+menu = Cloudflare DNS 1
+title = Cloudflare DNS - 1.1.1.1
+host = 1.1.1.1
+
+++ CloudflareDNS2
+menu = Cloudflare DNS 2
+title = Cloudflare DNS - 1.0.0.1
+host = 1.0.0.1
+
+++ Quad9
+menu = Quad9
+title = Quad9 - 9.9.9.9
+host = 9.9.9.9
