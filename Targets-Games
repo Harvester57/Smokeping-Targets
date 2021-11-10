@@ -1,0 +1,9 @@
++ Gaming_Ping
+menu = Jeux (Ping)
+title = Serveurs de jeux (Ping)
+probe = FPing
+
+++ LoL
+menu = LoL
+title = League Of Legends EU
+host = euw.leagueoflegends.com
