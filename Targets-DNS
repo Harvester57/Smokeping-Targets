@@ -41,3 +41,98 @@ host = 1.0.0.1
 menu = Quad9
 title = Quad9 - 9.9.9.9
 host = 9.9.9.9
+
+++ Adguard1
+menu = AdGuard DNS 1
+title = AdGuard DNS - 94.140.14.14
+host = 94.140.14.14
+
+++ Adguard2
+menu = AdGuard DNS 2
+title = AdGuard DNS - 94.140.15.15
+host = 94.140.15.15
+
+++ Yandex1
+menu = Yandex DNS 1
+title = Yandex DNS - 77.88.8.8
+host = 77.88.8.8
+
+++ Yandex2
+menu = Yandex DNS 2
+title = Yandex DNS - 77.88.8.1
+host = 77.88.8.1
+
+++ Switch
+menu = Switch DNS
+title = switch.ch - 130.59.31.248
+host = 130.59.31.248
+
+++ Comss1
+menu = Comss Ouest
+title = Comss.ru Ouest - 92.38.152.163
+host = 92.38.152.163
+
+++ Comss2
+menu = Comss Est
+title = Comms.ru Est - 92.223.109.31
+host = 92.223.109.31
+
+++ CIRA1
+menu = CIRA DNS 1
+title = CIRA DNS 1 - 149.112.121.10
+host = 149.112.121.10
+
+++ CIRA2
+menu = CIRA DNS 2
+title = CIRA DNS 2 - 149.112.122.10
+host = 149.112.122.10
+
+++ BlahDNS1
+menu = BlahDNS Japon
+title = BlahDNS Japon - 139.162.112.47
+host = 139.162.112.47
+
+++ BlahDNS2
+menu = BlahDNS Singapour
+title = BlahDNS Singapour - 192.53.175.149
+host = 192.53.175.149
+
+++ CZNIC1
+menu = CZ.NIC DNS 1
+title = CZ.NIC DNS 1 - 193.17.47.1
+host = 193.17.47.1
+
+++ CZNIC2
+menu = CZ.NIC DNS 2
+title = CZ.NIC DNS 2 - 193.17.47.1
+host = 193.17.47.1
+
+++ 360DNS1
+menu = 360 DNS 1
+title = 360 Secure DNS (CN) - 101.226.4.6
+host = 101.226.4.6
+
+++ 360DNS2
+menu = 360 DNS 2
+title = 360 Secure DNS (CN) - 218.30.118.6
+host = 218.30.118.6
+
+++ Quad1011
+menu = Quad101 DNS 1
+title = Quad101 DNS 1 - 101.101.101.101
+host = 101.101.101.101
+
+++ Quad1012
+menu = Quad101 DNS 2
+title = Quad101 DNS 2 - 101.102.103.104
+host = 101.102.103.104
+
+++ PIDNS
+menu = PI-DNS Australia
+title = PI-DNS Australia - 45.63.30.163
+host = 45.63.30.163
+
+++ Puncat
+menu = Puncat
+title = Puncat Barcelone - 109.69.8.51
+host = 109.69.8.51
