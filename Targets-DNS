@@ -131,8 +131,3 @@ host = 101.102.103.104
 menu = PI-DNS Australia
 title = PI-DNS Australia - 45.63.30.163
 host = 45.63.30.163
-
-++ Puncat
-menu = Puncat
-title = Puncat Barcelone - 109.69.8.51
-host = 109.69.8.51
