@@ -7,3 +7,13 @@ probe = FPing
 menu = LoL
 title = League Of Legends EU
 host = euw.leagueoflegends.com
+
+++ Dota1
+menu = DOTA Brésil
+title = DOTA Brésil - 209.197.25.1
+host = 209.197.25.1
+
+++ PUBG1
+menu = PUBG Francfort
+title = PUBG Francfort - 49.51.136.156
+host = 49.51.136.156
