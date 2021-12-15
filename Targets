@@ -45,6 +45,11 @@ menu = Cloud (Ping)
 title = Cloud (Ping)
 probe = FPing
 
+++ WindowsUpdate
+menu = Windows Update
+title = Windows Update - au.download.windowsupdate.com
+host = au.download.windowsupdate.com
+
 ++ HarvesterPlex
 menu = Serveur Harvester
 title = Serveur Harvester - 5.39.94.25
@@ -94,6 +99,8 @@ host = dynamodb.eu-west-2.amazonaws.com
 menu = AWS Stockholm
 title = AWS Stockholm - dynamodb.eu-north-1.amazonaws.com
 host = dynamodb.eu-north-1.amazonaws.com
+
+@include /config/Targets-Cloudv6
 
 + InternetSites
 menu = Internet (HTTP)

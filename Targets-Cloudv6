@@ -1,0 +1,25 @@
++ Cloudv6
+menu = Cloud - IPv6 (Ping)
+title = Cloud - IPv6 (Ping)
+probe = FPing6
+
+++ WindowsUpdatev6
+menu = Windows Update
+title = Windows Update - au.download.windowsupdate.com
+host = au.download.windowsupdate.com
+
+++ HarvesterPlexv6
+menu = Serveur Harvester
+title = Serveur Harvester - 2001:41d0:8:b319::1
+host = 2001:41d0:8:b319::1
+
+++ Netflixv6
+probe = FPing6
+menu = Netflix Paris
+title = Netflix Paris - ipv6-c162-cdg001-ix.1.oca.nflxvideo.net
+host = ipv6-c162-cdg001-ix.1.oca.nflxvideo.net
+
+++ AppleFrankfurtv6
+menu = Apple Francfort
+title = Apple Francfort - defra1-vip-bx-001.aaplimg.com
+host = defra1-vip-bx-001.aaplimg.com
